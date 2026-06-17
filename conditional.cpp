@@ -13,18 +13,7 @@ int main(){
     cout<<"entre your 3rd no.  = ";
     cin>>c;
 
-    if(a>b && a>c){
-
-        cout<<" the greatest no. is "<<a;
-
-    }else if (b>c && b>a){
-
-        cout<<"the greatest no. is "<<b;
-
-
-    }else{
-        cout<<"the greatest no. is" <<c;
-    }
+  cout<<((a>b&& a>c)?"the greatest no is ": (b>a&& b>c)?"the greatest no. is ":"the greatest no. is ");
     return 0; 
 }
 
