@@ -1,14 +1,20 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a ;
-    cout<<"Entre a number = ";
+    int a  ;
+    cout<<"Entre a no. ";
     cin>>a;
+    
     int sum = 0;
-    for( int i = 1 ; i<=a; i++  ){
-        sum+=i;
+    for( int i =1 ; i<=a; i++  ){
+        if( i % 2 !=0){
+            cout<<i<< " ";
+            sum+=i;
+            
+        }
     }
-    cout<<"hence the sum of the no. from 1 to "<<a<<endl;
+     cout<<"the sum of odd no. till  "<<a<<endl;
     cout<<sum;
+    
     return 0;
 }
