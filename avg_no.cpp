@@ -5,7 +5,7 @@ int main() {
     int a, b, c, d ,e ,f ,g ,h ,i ,j ;
     float sum = 0;
     int count = 0;
-    cout<<"entre a no.= ";
+   cout<<"entre a no.= ";
     cin>>a;
     cout<<"entre another no.  = ";
     cin>>b;
