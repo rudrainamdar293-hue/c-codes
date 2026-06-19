@@ -122,3 +122,18 @@ int main(){
   }
     return 0;
 }
+                    // Floyd 's triangle
+
+#include <iostream>
+using namespace std;
+int main(){
+  char ch = 'A';
+  for (int i = 0;i<=5 ; i++){
+    for (int j = i+1 ; j>0;j--){
+      cout<<ch;
+      ch+=1;
+    }
+    cout<<endl;
+  }
+  return 0;
+}
